@@ -1,0 +1,11 @@
+Category,Precision,Recall,F1-score,Support
+almosthomeless,0.0,0.0,0.0,13
+anxiety,0.57,0.64,0.6,99
+assistance,0.59,0.42,0.49,57
+domesticviolence,0.47,0.32,0.38,59
+food_pantry,0.0,0.0,0.0,8
+homeless,0.73,0.3,0.42,27
+ptsd,0.41,0.69,0.51,127
+relationships,0.52,0.69,0.6,113
+stress,0.0,0.0,0.0,8
+survivorsofabuse,0.75,0.05,0.1,57

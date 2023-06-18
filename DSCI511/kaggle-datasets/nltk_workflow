@@ -1,0 +1,17 @@
+digraph {
+	"Load Corpus"
+	Tokenization
+	"Stopword Removal"
+	"Stemming/Lemmatization"
+	"POS Tagging"
+	Chunking
+	"Named Entity Recognition"
+	"Sentiment Analysis"
+	"Load Corpus" -> Tokenization
+	Tokenization -> "Stopword Removal"
+	"Stopword Removal" -> "Stemming/Lemmatization"
+	"Stemming/Lemmatization" -> "POS Tagging"
+	"POS Tagging" -> Chunking
+	Chunking -> "Named Entity Recognition"
+	"Named Entity Recognition" -> "Sentiment Analysis"
+}
